@@ -1,0 +1,17 @@
+@mixin btn {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    padding:15px 0;
+    color: #458FF6;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    &:hover{
+        color:#fff;
+        background-color: #458FF6;
+    }
+}

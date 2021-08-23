@@ -1,0 +1,30 @@
+.header{
+    padding:67px 0 ;
+    &__logo{
+        width: 160px;
+        height: 41px;
+    }
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+    &__item{
+        margin-right: 40px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__link{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #1F1534;
+        opacity: 0.5;
+    }
+}

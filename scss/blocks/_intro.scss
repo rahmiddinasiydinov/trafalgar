@@ -1,0 +1,34 @@
+.intro{
+    padding: 13px 0;
+    &__dots{
+        position: absolute;
+    }
+    &__wrapper{
+        display: flex;
+        align-items: center;
+    }
+    &__header{
+        max-width: 427px;
+        font-size: 48px;
+        line-height: 56px;
+    }
+    &__content{
+        margin-right: 83px;
+    }
+    &__text{
+        max-width: 445px;
+        font-size: 21px;
+        line-height: 32px;
+        margin: 25px 0 45px;
+    
+    }
+    &__btn{
+        @include btn;
+        color:#fff;
+        background-color: #458FF6;
+        &:hover{
+            color: #458FF6;
+            background-color: transparent;
+        }
+    }
+}

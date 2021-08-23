@@ -1,0 +1,67 @@
+.service{
+    margin-top: 113px;
+    position: relative;
+    background-image: url(../imgs/service__back.svg);
+    background-size: 1118px 967px;
+    background-repeat: no-repeat;
+    background-position:-150px 0;
+    &__header{
+        font-size: 36px;
+        line-height: 56px;
+        text-align: center;
+    }
+    &__line{
+        background: #000000 ;
+        border-radius: 5px;
+        border:none ;
+        height: 2px;
+        width: 56px;
+        margin: 26px auto 33px;
+    }
+    &__text{
+        max-width: 952px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    &__list{
+        background-image: url(../imgs/dots5.svg);
+        background-repeat: no-repeat;
+        background-position: right center;
+        position: relative;
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__item{
+        max-width: 350px;
+        margin-right: 37px;
+        padding: 60px 40px;
+        margin-bottom: 37px;
+        background: #FFFFFF;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        &:nth-child(3n){
+            margin-right: 0;
+        }
+        .item{
+            &__header{
+                margin: 22px 0 1px;
+                font-size: 24px;
+                line-height: 56px;
+            }
+            &__text{
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+    }
+    &__btn{ 
+        display: block;
+        margin:72px auto 0;
+        @include btn;
+      
+    }
+}
